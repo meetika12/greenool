@@ -1,0 +1,169 @@
+html, body{
+  margin:0;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background: #FFf;
+}
+body a {
+  text-decoration:none;
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;
+}
+a:hover{
+ text-decoration:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin:0; 
+} 
+p{
+  margin:0;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+label{
+  margin:0;
+}
+
+.body{
+background: url(../images/project1.jpg) no-repeat 0px 0px;
+background-size:cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-ms-background-size: cover;
+-moz-background-size: cover;
+min-height: 855px;
+}
+.banner-text h3 {
+  font-size: 36px;
+ font-family: 'Alegreya-Regular';
+  color:#ECCA69;
+  text-align: center;
+}
+.banner-text h4 {
+  margin-top: 400px;
+  line-height: 1.3em;
+  font-size: 65px;
+  margin-top: 30px;
+ font-family: 'Alegreya-Regular';
+  color: #fff;
+  text-align: center;
+}
+.banner-info {
+  margin-top: 4000px;
+}
+  .banner-info {
+    margin-top: 60px;
+  }
+  .banner-info .callbacks_container ul li .banner-text h4 a{
+    color: #fff;
+  }
+  .banner-info .callbacks_container ul li a.h:hover{
+color: #000000;
+}
+.header-nav {
+  padding-top: 40px;
+}.header-nav .glyphicon-home {
+  color:#ECCA69;
+  font-size: 30px;
+  margin-right: 10px;
+  top: 0;
+}
+
+.social-icons {
+    float: left;
+    margin-top: 13px;
+  }
+  .social-icons {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  .social-icons{
+margin-top: 20px;
+float:right;
+}
+.social-icons ul li {
+margin-left:5px;
+  list-style-type: none;
+  display: inline-block;
+}
+.social-icons ul li a{
+width:24px;
+height:24px;
+display:block;
+}
+.social-icons ul li a.f1{
+background: url(../images/img-sprite.png) no-repeat 0px 0px;
+}
+.social-icons ul li a.f2{
+background: url(../images/img-sprite.png) no-repeat -26px 0px;
+}
+.social-icons ul li a.f3{
+background: url(../images/img-sprite.png) no-repeat -52px 0px;
+}
+.social-icons ul li a.f4{
+background: url(../images/img-sprite.png) no-repeat -78px 0px;
+}
+.social-icons ul li a.f1:hover{
+background: url(../images/img-sprite-hover.png) no-repeat 0px 0px;
+    transform: rotateY(360deg);
+}
+.social-icons ul li a.f2:hover{
+background: url(../images/img-sprite-hover.png) no-repeat -26px 0px;
+    transform: rotateY(360deg);
+}
+.social-icons ul li a.f3:hover{
+background: url(../images/img-sprite-hover.png) no-repeat -52px 0px;
+    transform: rotateY(360deg);
+}
+.social-icons ul li a.f4:hover{
+background: url(../images/img-sprite-hover.png) no-repeat -78px 0px;
+    transform: rotateY(360deg);
+}
+.logo {
+  z-index: 9999;
+  }
+logo a {
+    font-size: 32px;
+  }
+  .logo {
+    float: left;
+    width: 30%;
+  }
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color:#5bb2fc !important;
+  border-color:#5bb2fc !important;
+}
+  .banner-info {
+  margin-top: 200px;
+}
+  .banner-info {
+    margin-top: 60px;
+  }
+
+  .callbacks_container {
+  position: relative;
+  width: 100%;
+}
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.callbacks li {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+

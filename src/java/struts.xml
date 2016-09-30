@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+
+<struts>
+    <package name="technopart" namespace="/" extends="struts-default">
+        <action name="Home">
+            <result>Home.html</result>
+        </action>
+        
+        <action name="register">
+            <result>Register.jsp</result>
+        </action>
+        <action name="signupaction"  class="sf.action.SignUpCodeActionClass">
+            <result name="success">Register.jsp</result>
+            <result name="error">a.jsp</result>
+        </action>
+    </package>
+    
+</struts> 
